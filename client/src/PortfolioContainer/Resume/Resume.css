@@ -27,7 +27,7 @@
     text-align: justify;
     max-width: 100%;
     font-family: "Poppins Light";
-    font-size: 18px;
+    font-size: 15px;
 }
 .resume-details-carousal {
     transition: transform 1s ease-out;
@@ -72,9 +72,6 @@
     color: white;
     width: 100%;
 }
-.experience-description{
-    font-size: 15px;
-}
 
 .resume-screen-container{
     display: flex;
@@ -91,9 +88,10 @@
     margin-bottom: 5%;
 }
 .resume-main-heading{
-    position:relative;
+    position: relative;
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins SemiBold';
 }
 .heading-bullet{
     position: absolute;
@@ -105,15 +103,15 @@
     border-radius: 50%;
 }
 .resume-sub-heading{
-    font-size: 17px;
-    font-family: "Poppins Light";
+    font-size: 15px;
+    font-family: "Poppins Regular";
     color: #111;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
 }
 .resume-heading-description{
-    font-size: 15px;
     text-align: justify;
-    font-family: "Poppins Light"
+    font-family: "Poppins Light";
+    font-size: 14px;
 }
 .heading-date {
     background-color: #f4c5ba;

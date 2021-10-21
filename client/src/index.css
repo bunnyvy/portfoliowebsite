@@ -107,7 +107,7 @@ body ::-webkit-scrollbar-thumb {
 
 .primary-btn:hover {
   color: aliceblue;
-  border: 6px solid #6fa9ab;;
+  border: 6px solid #ff5823;
   background-color: #f4c5ba;
 }
 
