@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 .bullet-label{
-    font-size: 18px;
+    font-size: 16px;
     white-space: nowrap;
     font-family: "Poppins Light";
 }
@@ -101,13 +101,13 @@
     border-radius: 50%;
 }
 .resume-sub-heading{
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Poppins Light";
     color: #111;
     margin: 10px 0 0 0;
 }
 .resume-heading-description{
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
     font-family: "Poppins Light"
 }
