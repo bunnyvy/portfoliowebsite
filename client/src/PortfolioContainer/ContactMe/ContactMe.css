@@ -1,0 +1,136 @@
+.main-container{
+    min-height: 100vh;
+}
+.central-form {
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+    border-radius: 12px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 80%;
+    
+}
+.central-form h2{
+    color: #111;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: "Poppins Light";
+}
+.back-form{
+    max-width: 380px;
+    margin: 0 auto;
+}
+.back-form .img-back{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.back-form .img-back img {
+    width: 100%;
+    opacity: 0.5;
+}
+.central-form form {
+    display:flex;
+    color: #111;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -52px;
+    border-radius: 12px;
+}
+form p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--dark-orange);
+    letter-spacing: 0.4rem;
+    font-family: "Poppins SemiBold";
+}
+form label {
+    margin-bottom: 5px;
+    color: #111;
+}
+form input, textarea {
+    width: 100;
+    border: 2px solid rgba(0,0,0,0);
+    outline: none;
+    background-color: #f4c5ba;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+textarea:focus {
+    border: 2px solid rgba(30, 8, 250, 0.47);
+    background-color: #e5825d;
+
+}
+input:focus {
+    border: 2px solid rgba(30, 8, 250, 0.47);
+    background-color: #e5825d;
+}
+form button {
+    margin-top: 15px;
+    padding: 5px;
+    outline: none;
+    width: 160px;
+    border: 2px solid #daf7a6;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #f4c5ba;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+form button:hover {
+    background-color:#e5825d;
+    transition: all ease 3s;
+    border: 6px solid #daf7a6;
+}
+.img-back{
+    flex: 1;
+    align-self: center;
+}
+
+form {
+    flex: 0.9;
+}
+button .load {
+    width: 100;
+}
+button .load img {
+    width: 60px;
+    color: green;
+}
+.col i {
+    padding: 7px;
+    color: #111;
+    font-size: 2rem;
+    opacity: 0.7;
+    gap: 20px;
+}
+.col i:hover {
+    transform: scale(2);
+}
+
+
+@media screen and (min-width: 940px) {
+    .back-form{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .img-back{
+        flex:1;
+        align-self: center;
+        margin-right: 20px;
+    }
+    form {
+        flex: 0.9;
+    }
+}
