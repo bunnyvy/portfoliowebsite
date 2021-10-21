@@ -15,7 +15,7 @@
 }
 
 .profile-details-name{
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Poppins Regular";
     margin-bottom: 5%;
 }
@@ -27,7 +27,7 @@
 }
 
 .profile-details-role h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-family: "Poppins SemiBold";
     margin-bottom: 5%;
 }
