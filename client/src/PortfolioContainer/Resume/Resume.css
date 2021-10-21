@@ -76,7 +76,6 @@
 .resume-screen-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     height: 360px;
     width: 100%;
     font-family: "Poppins Light";
@@ -106,12 +105,13 @@
     font-size: 15px;
     font-family: "Poppins Regular";
     color: #111;
-    margin: 10px 0 0;
+    margin-right: 10%;
 }
 .resume-heading-description{
     text-align: justify;
     font-family: "Poppins Light";
     font-size: 14px;
+    margin-right: 10%;
 }
 .heading-date {
     background-color: #f4c5ba;
@@ -119,6 +119,7 @@
     font-size: 14px;
     border-radius: 14px;
     color: white;
+    margin-right: 10%;
 }
 .skill-parent{
     display: flex;
