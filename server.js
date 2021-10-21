@@ -20,5 +20,5 @@ if(process.env.NODE_ENV === "production"){
     ));
 }
 
-const port = process.env.PORT || 8000;
-app.listen(port, console.log(`Server listening to port 5000 only`));
+const port = process.env.PORT || 5000;
+app.listen(port, console.log(`Server listening to port 8000 only`));

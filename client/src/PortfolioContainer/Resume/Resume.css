@@ -72,6 +72,10 @@
     color: white;
     width: 100%;
 }
+.experience-description{
+    font-size: 15px;
+}
+
 .resume-screen-container{
     display: flex;
     flex-direction: column;

@@ -24,7 +24,11 @@
 }
 .back-form .img-back{
     width: 100%;
-    margin-bottom: 20px;
+    margin: inherit;
+    margin-right: 5%;
+    margin-left: 3%;
+    font-family: 'Poppins Light';
+    font-size: 17px;
 }
 
 .back-form .img-back img {

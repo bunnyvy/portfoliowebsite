@@ -83,13 +83,13 @@ export default function ContactMe(props) {
                     "Reach me out on Socials",
                     3000,
                     "Facebook",
-                    1500,
+                    3000,
                     "Instagram",
-                    1500,
+                    3000,
                     "LinkedIn",
-                    1500,
+                    3000,
                     "GitHub",
-                    1500,
+                    3000,
                   ]}
                 />
               </h2>
@@ -132,7 +132,7 @@ export default function ContactMe(props) {
 
                   <div className="send-btn">
                       <button type="submit">
-                          send
+                          Send 
                           <i className='fa fa-paper-plane'/>
                           {bool?(<b className='load'>
                               <img src={load1} alt='image not responding'/>

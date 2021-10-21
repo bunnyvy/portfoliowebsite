@@ -101,7 +101,7 @@ const Resume = (props) => {
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"Royal Melbounre Institute of Technology"}
+        heading={"Royal Melbourne Institute of Technology"}
         subHeading={"Master of Business Information Technology"}
         fromDate={"2019"}
         toDate={"2021"}
