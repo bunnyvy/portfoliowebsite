@@ -78,7 +78,7 @@ const Resume = (props) => {
         description:
           "This is a group project involved developing an iOS-Android Compatible One-stop App for the students at RMIT. In this project, I worked with different disciplinaries experts  to prepare a project management proposal. This involved using Microsoft Project software for schedule and network diagram, Microsoft Excel for project budget; and writing up priority matrix, planning out Work Breakdown Structure and change management plan as well as risk evaluation.",
         subHeading:
-          "Skills Used: SQL Database, Orange Software (Data Visualisation)",
+          "Skills Used: Prototyping, ",
       },
     {
         title: "SQL Database for a Shop",
