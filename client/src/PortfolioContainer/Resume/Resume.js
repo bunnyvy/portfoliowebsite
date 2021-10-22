@@ -173,7 +173,7 @@ const Resume = (props) => {
     </div>,
 
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
+    <div className="resume-screen-container projects-container" key="projects">
       {projectsDetails.map((projectsDetails, index) => (
         <ResumeHeading
           key={index}

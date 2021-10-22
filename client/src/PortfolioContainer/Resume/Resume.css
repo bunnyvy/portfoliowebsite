@@ -80,6 +80,7 @@
     width: 100%;
     font-family: "Poppins Light";
     overflow: scroll; 
+    justify-content: space-evenly;
 }
 .resume-heading{
     display: flex;
@@ -134,6 +135,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 5px;
+}
+.projects-container{
+    justify-content: flex-start;
 }
 .skill-percentage {
     position: relative;
